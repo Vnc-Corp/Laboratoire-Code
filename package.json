@@ -4,8 +4,15 @@
   "description": "e",
   "main": "index.js",
   "scripts": {
-    "SASS": "sass --watch ./SASS/main.scss:PUBLIC/CSS/style.css "
+    "sass": "sass --watch ./SASS/main.scss:PUBLIC/CSS/style.css "
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vnc-Corp/Laboratoire-Code.git"
+  },
+  "keywords": [
+    ""
+  ],
   "author": "LARIVIERE Vicnent",
   "license": "ISC"
 }

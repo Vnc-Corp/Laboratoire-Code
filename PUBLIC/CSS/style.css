@@ -7,9 +7,9 @@ html {
   justify-content: center;
 }
 
-body {
+#body_index {
   max-width: 1500px;
-  background: black;
+  background: linear-gradient(to right, #91284b, #e92525);
   margin: 0;
   padding: 0;
 }
@@ -31,6 +31,10 @@ body {
   width: 100%;
 }
 
+#instruction {
+  color: white;
+}
+
 /*components/ est utilisé pour ranger les blocs BEM qui sont plus indépendants, 
 comme les boutons. */
 /* layouts/ est le dossier où vous mettez vos blocs BEM qui contiennent ce qui est réutilisable, 
@@ -39,6 +43,39 @@ par exemple un header pour les mises en page de grande taille ou un footer ;*/
 Vous utilisez des boutons dans tout votre site, en revanche votre page d’accueil comporte une section
  Citation et une grille de projets qui ne sont employés nulle part ailleurs. En d’autres termes, pages/
   contient des règles spécifiques à une seule page qui ne seront pas réutilisées ailleurs ;*/
+html, main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#body_joke {
+  max-width: 1500px;
+  background: linear-gradient(to right, #f535f5, #f08306);
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  width: 60%;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.app {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 /*themes/, c’est ici que vous stockez le code thématique,
  par exemple un style customisé pour Noël ou pour l’été. 
  On ne l’utilisera pas dans notre site ; */
